@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.resume-title {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(25, 42, 120);
+    text-decoration: underline;
+}
+.edu {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: white;
+}
+
+.unordered {
+    font-style: normal;
+}
+
+.homebg {
+    background-color: rgb(97, 173, 173);
+    background-size: cover;
+  }
+
+.boldword {
+    font-weight: bold;
+  }
+
+.video {
+    grid-column-start: 2;
+    margin-left: 10px;
+}
+
+.align {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+.top {
+    color: rgb(74, 13, 13);
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.interests {
+    color:rgb(66, 13, 66);
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    text-align: center;
+}
+
+.tableau {
+    color: rgb(125, 84, 29);
+    font-variant-caps: titling-caps;
+    font-stretch: narrower;
+    text-align:justify;
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
